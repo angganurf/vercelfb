@@ -85,7 +85,7 @@ const Post: React.FC<PostProps> = (props) => {
         {/* <meta property="og:title" content={post.title} /> */}
         {/* <link rel="canonical" href={`https://${host}/${path}`} /> */}
         <link rel="canonical" href={`https://facebook.com`} />
-        <meta property="og:description" content={removeTags(post.excerpt)} />
+        {/* <meta property="og:description" content={removeTags(post.excerpt)} /> */}
         {/* <meta property="og:url" content={`https://${host}/${path}`} /> */}
         <meta property="og:url" content={`https://facebook.com`} />
         <meta property="og:type" content="article" />
@@ -98,7 +98,7 @@ const Post: React.FC<PostProps> = (props) => {
           property="og:image:alt"
           content={post.featuredImage.node.altText || post.title}
         /> */}
-        {/* <title>{post.title}</title> */}
+        <title>&#6158;</title>
       </Head>
       <div className="post-container">
         <h1>{post.title}</h1>
